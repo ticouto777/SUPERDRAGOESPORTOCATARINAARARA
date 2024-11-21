@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SONIC PORTISTA FREE MACACO</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <header>
+    <h1><span id="typed-text"></span></h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre" class="active">Sobre</a></li>
+        <li><a href="#criacao">Criação</a></li>
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#recepcao">Recepção e Legado</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2><span id="typed-text-1"></span></h2>
+      <p><span id="typed-text-2"></span></p>
+    </section>
+
+    <section id="criacao">
+      <h2><span id="typed-text-3"></span></h2>
+      <p><span id="typed-text-4"></span></p>
+    </section>
+
+    <section id="caracteristicas">
+      <h2><span id="typed-text-5"></span></h2>
+      <img src="imagens/caracteristicas-sonic.jpg" alt="Características do Sonic Ti Couto" class="caracteristicas-img">
+    </section>
+
+    <section id="recepcao">
+      <h2><span id="typed-text-6"></span></h2>
+      <ul>
+        <li><span id="typed-text-7"></span></li>
+        <li><span id="typed-text-8"></span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 - Todos os direitos reservados.</p>
+    <p>tou na tanga ninguém quer saber</p>
+  </footer>
+
+  <div class="nuvem" id="nuvem1">
+    <div class="fechar-nuvem" onclick="fecharNuvem('nuvem1')"></div>
+    <p>SENTE A MAGIA DO SONIC DO PORTO</p>
+    <button onclick="tocarAudio('audio1', 'nuvem1')">FREE MACACO</button>
+    <audio id="audio1" src="audio/super_sonic_theme.mp3"></audio>
+  </div>
+
+  <div class="nuvem" id="nuvem2">
+    <div class="fechar-nuvem" onclick="fecharNuvem('nuvem2')"></div> 
+    <p>SENTE A MAGIA DO SONIC PORTISTAAAA ARARARARARAA</p>
+    <button onclick="tocarAudio('audio2', 'nuvem2')">FREE MACACO</button>
+    <audio id="audio2" src="audio/sonic_ti_couto.mp3"></audio>
+  </div>
+
+  <div id="fotos-malucas"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
